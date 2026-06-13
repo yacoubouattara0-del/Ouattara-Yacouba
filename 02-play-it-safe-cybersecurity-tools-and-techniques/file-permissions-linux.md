@@ -1,6 +1,6 @@
 # File Permissions in Linux
 
-**Project description**
+## Project description
 
 The research team needed updated file permissions for the `projects` directory. The current permissions did not match the required authorization level. I checked and updated these permissions to help secure the system, following the principle of least privilege.
 
@@ -8,12 +8,13 @@ The research team needed updated file permissions for the `projects` directory. 
 
 ## Check file and directory details
 
-Command used:
-`ls -la`
+Command used: `ls -la`
 
 This command lists all contents of a directory, including hidden files (starting with `.`), along with permissions, owner, group, size, and last modified date.
 
 The output showed a directory named `drafts`, a hidden file `.project_x.txt`, and other project files. The 10-character string in the first column represents the permissions for each item.
+
+![ls -la output showing initial permissions](check-permissions.png)
 
 ---
 
@@ -36,10 +37,11 @@ Example: `-rw-rw-r--`
 
 **Issue found:** `project_k.txt` had write access for "others", which violated the policy.
 
-Command used:
-`chmod o-w project_k.txt`
+Command used: `chmod o-w project_k.txt`
 
 This removed write permission for "others". I then ran `ls -la` again to confirm the change.
+
+![chmod o-w project_k.txt result](change-file-permissions.png)
 
 ---
 
@@ -53,6 +55,8 @@ Commands used:
 - `chmod u-w,g-w .project_x.txt` → removed write access for user and group
 - `chmod g+r .project_x.txt` → added read access for group
 
+![chmod on hidden file .project_x.txt](hidden-file-permissions.png)
+
 ---
 
 ## Change directory permissions
@@ -61,10 +65,11 @@ Commands used:
 
 **Requirement:** only `researcher2` should have execute (access) permissions.
 
-Command used:
-`chmod g-x drafts`
+Command used: `chmod g-x drafts`
 
 The group previously had execute permissions, so I removed them. The user `researcher2` already had execute permissions, so no further changes were needed.
+
+![chmod g-x on drafts directory](directory-permissions.png)
 
 ---
 
