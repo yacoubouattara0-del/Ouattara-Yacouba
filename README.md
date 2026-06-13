@@ -1,43 +1,52 @@
-# Ouattara-Yacouba
-Analyst Cybersecurity junior
+# My Profile - Junior Cybersecurity Analyst
 
-## À propos de moi
-Je suis un analyste cybersécurité junior, passionné par la protection des personnes et des organisations contre les menaces. Mes points forts : rigueur et résolution de problèmes. Je souhaite utiliser la triade CIA et les cadres de sécurité comme le NIST CSF pour assurer la confidentialité, l'intégrité et la disponibilité des informations.
+## About Me
+I'm a junior cybersecurity analyst, passionate about protecting people and organizations from threats.
+My strengths: attention to detail, problem-solving, and technical curiosity.
+I rely on security frameworks (NIST CSF, CIA Triad, OWASP) and Linux best practices to ensure the confidentiality, integrity, and availability of information.
 
 ---
 
-## Compétences
+## Skills
 
 **Frameworks**
-- NIST CSF (6 fonctions : Govern, Identify, Protect, Detect, Respond, Recover)
-- Triade CIA (Confidentialité, Intégrité, Disponibilité)
-- OWASP (moindre privilège, défense en profondeur)
+- NIST CSF (6 functions: Govern, Identify, Protect, Detect, Respond, Recover)
+- CIA Triad (Confidentiality, Integrity, Availability)
+- OWASP (least privilege, defense in depth)
 
-**Outils techniques**
+**Technical Tools**
 - SIEM (Splunk, Chronicle)
-- Linux (commandes, gestion des logs)
-- SQL et Python
-- Pare-feu, IDS, MFA
+- Linux (file management, permissions, `chmod`, `ls -la`, `grep`, `find`, `nano`)
+- SQL and Python
+- Firewalls, IDS, MFA, VPN
 
-**Réglementations**
+**Linux Permissions Management**
+- Checking permissions with `ls -l` / `ls -la`
+- Modifying permissions with `chmod` (symbolic mode)
+- Applying the principle of least privilege
+- Managing hidden files and directories
+
+**Regulations**
 - GDPR, PCI DSS, HIPAA
 
-**Audit**
-- Audit de sécurité interne (portée, objectifs, évaluation des risques et contrôles)
+**Auditing**
+- Internal security audits (scope, objectives, risk and control assessment)
 
 ---
 
-## Projets
-
-- Audit de sécurité interne
-- Analyse de réseau et sécurité
-- Gestion des autorisations Linux
-- Filtrage de requêtes SQL
-- Documentation d'incident
+## Recent Projects
+- [File Permissions in Linux](02-play-it-safe-cybersecurity-tools-and-techniques/file-permissions-linux.md) — Checked and updated file/directory permissions applying the principle of least privilege
+- Log analysis and filtering with `grep`, `find`, `head`, `tail`
+- File creation and editing with `nano` and redirection (`>`, `>>`)
 
 ---
 
 ## Certifications
+- Google Cybersecurity Certificate (in progress)
+- CompTIA Security+ (preparing)
 
-- Google Cybersecurity Certificate (en cours)
-- Préparation CompTIA Security+
+---
+
+## Contact
+- 📧 Email: yacoubouattara0@gmail.com
+- 💼 LinkedIn: [yacoub-ouattara](https://www.linkedin.com/in/yacoub-ouattara-281979277)
