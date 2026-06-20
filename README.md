@@ -38,7 +38,7 @@ I rely on security frameworks (NIST CSF, CIA Triad, OWASP) and Linux best practi
 - [File Permissions in Linux](02-play-it-safe-cybersecurity-tools-and-techniques/file-permissions-linux.md) — Checked and updated file/directory permissions applying the principle of least privilege
 - Log analysis and filtering with `grep`, `find`, `head`, `tail`
 - File creation and editing with `nano` and redirection (`>`, `>>`)
-- [Apply Filters to SQL Queries](CHEMIN/apply-filters-sql-queries.md) — Used AND, OR, NOT, and LIKE operators to filter SQL data for security investigations
+- [Apply Filters to SQL Queries](02-play-it-safe-cybersecurity-tools-and-techniques/apply-filters-sql-queries.md) — Used AND, OR, NOT, and LIKE operators to filter SQL data for security investigations
 
 ---
 
