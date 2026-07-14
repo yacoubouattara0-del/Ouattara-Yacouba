@@ -39,7 +39,7 @@ I rely on security frameworks (NIST CSF, CIA Triad, OWASP) and Linux best practi
 - Log analysis and filtering with `grep`, `find`, `head`, `tail`
 - File creation and editing with `nano` and redirection (`>`, `>>`)
 - [Apply Filters to SQL Queries](02-play-it-safe-cybersecurity-tools-and-techniques/apply-filters-sql-queries.md) — Used AND, OR, NOT, and LIKE operators to filter SQL data for security investigations
-- - [Vulnerability Assessment Report](02-play-it-safe-cybersecurity-tools-and-techniques/vulnerability-assessment-report.md) — Conducted a risk assessment on a vulnerable database server using NIST SP 800-30 Rev. 1
+- [Vulnerability Assessment Report](02-play-it-safe-cybersecurity-tools-and-techniques/vulnerability-assessment-report.md) — Conducted a risk assessment on a vulnerable database server using NIST SP 800-30 Rev. 1
 
 ---
 
